@@ -51,7 +51,15 @@ python main.py
 
 ## Instruction Set Architecture (ISA)
 ```
-InstructionArgumentDescriptionLOADvalueLoads an integer directly into the register.PUSHNonePushes the current register value onto the stack.POPNonePops the top value off the stack and copies it into the register.ADD[value]Adds an argument (if provided) or pops the top stack item and adds it to the register.SUB[value]Subtracts an argument (if provided) or pops the top stack item from the register.PRINTNoneOutputs the current register status to stdout.PRINT_STACKNoneOutputs the complete list array of the current stack state.
+| Instruction | Argument | Description |
+| :--- | :--- | :--- |
+| **`LOAD`** | `value` | Loads an integer directly into the register. |
+| **`PUSH`** | *None* | Pushes the current register value onto the stack. |
+| **`POP`** | *None* | Pops the top value off the stack and copies it into the register. |
+| **`ADD`** | `[value]` | Adds an argument (if provided) or pops the top stack item and adds it to the register. |
+| **`SUB`** | `[value]` | Subtracts an argument (if provided) or pops the top stack item from the register. |
+| **`PRINT`** | *None* | Outputs the current register status to stdout. |
+| **`PRINT_STACK`** | *None* | Outputs the complete list array of the current stack state. |
 ```
 
 ## Project Structure
