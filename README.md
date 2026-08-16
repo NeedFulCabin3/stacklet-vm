@@ -7,7 +7,7 @@ This project shows how instruction pointers, registers, and memory stacks intera
 ## Key Features
 
 * **Hybrid Architecture:** Uses a single working register alongside an explicit stack structure.
-* **Text Assembly Parser:** Directly processes uppercase textual instructions (`LOAD`, `PUSH`, `ADD`) instead of raw binary opcodes.
+* **Text Assembly Parser:** Directly processes uppercase textual instructions (`LOAD`, `PUSH`, `ADD`) instead of  binary opcodes.
 * **Automatic Error Catching:** Includes stack underflow protection for mathematical and pop operations.
 * **Zero Dependencies:** Runs entirely on standard Python libraries.
 
