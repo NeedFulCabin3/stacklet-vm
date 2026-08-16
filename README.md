@@ -1,6 +1,6 @@
 # Stacklet VM
 
-A , minimal virtual machine implemented in Python that combines an internal data stack with a primary working register. It parses and executes simple text-based assembly commands out of a file or an array of strings. 
+A, minimal virtual machine implemented in Python that combines an internal data stack with a primary working register. It parses and executes simple text-based assembly commands out of a file or an array of strings. 
 
 This project shows how instruction pointers, registers, and memory stacks interact under the hood without the bloat of real-world hardware architectures.
 
